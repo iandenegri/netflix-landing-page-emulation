@@ -78,6 +78,10 @@ img {
     border-radius: 2px;
 }
 
+.btn-icon {
+    margin-left: 1rem;
+}
+
 .btn-rounded {
     border-radius: 5px;
 }
@@ -180,6 +184,16 @@ img {
     padding: 3rem 0;
     background: black;
     color: white;
+}
+
+/* Hide tab content initially */
+#tab-1-content, #tab-2-content, #tab-3-content {
+    display: none;
+}
+
+/* Apply show on to the tab that needs to be active */
+.tab-content .show {
+    display: block !important;
 }
 
 #tab-1-content .tab-1-content-inner {
@@ -338,7 +352,7 @@ img {
 
 @media(max-width: 700px) {
     .showcase:after {
-        background:rgba(0, 0, 0, .5); /* Create the darken effect on the background*/
+        background:rgba(0, 0, 0, .6); /* Create the darken effect on the background*/
         box-shadow: inset 80px 70px 250px black, inset -80px -70px 250px black; /* vignette effect on background. From left (positive) and right (negative)*/
     }
     #tab-1-content .tab-1-content-inner {
