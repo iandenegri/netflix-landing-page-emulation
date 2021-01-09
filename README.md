@@ -10,4 +10,4 @@ The goal of this repository is to create a landing page using HTML, CSS and vani
 * Make tabs clickable and interactable
 * ~~Add content to tabs~~
 * ~~Add footer~~
-* Make responsive
+* ~~Make responsive~~
